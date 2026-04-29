@@ -57,3 +57,4 @@ create table note(
     foreign key (id_matiere) references matiere(id_matiere),
     foreign key (id_eleve) references eleve(id_eleve)
 );
+
