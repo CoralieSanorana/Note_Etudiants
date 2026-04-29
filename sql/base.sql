@@ -12,7 +12,8 @@ create table eleve(
 
 CREATE table semestre(
     id_semestre int primary key auto_increment,
-    semestre varchar(10)
+    semestre varchar(10),
+    option int not null -- 0 si aucune option, 1 sinon
 );
 
 create table matiere(
@@ -38,10 +39,9 @@ create table option(
 create table config(
     id_config int primary key auto_increment,
     id_semestre int not null,
-    id_option int not null,
+    id_option int,
     id_matiere int not null,
     credit int,
-    foreign key (id_option) references option(id_option),
     foreign key (id_semestre) references semestre(id_semestre),
     foreign key (id_matiere) references matiere(id_matiere)
 );
