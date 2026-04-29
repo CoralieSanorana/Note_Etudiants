@@ -1,0 +1,7 @@
+npm init -y
+npm i -D sass
+npx sass public/assets/css/style.scss public/assets/css/style.css
+
+npx sass --watch public/assets/css/style.scss:public/assets/css/style.css
+
+sass public/assets/css/style.scss public/assets/css/style.css
