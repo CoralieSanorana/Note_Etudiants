@@ -5,5 +5,5 @@ class SemestreModel extends Model
 {
  protected $table = 'semestre';
  protected $primaryKey = 'id_semestre';
- protected $allowedFields = ['semestre'];
+ protected $allowedFields = ['option','semestre'];
 }

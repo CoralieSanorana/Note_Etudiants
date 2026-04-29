@@ -7,7 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/eleves', 'Eleve::index');
-$routes->get('/eleves/(:num)/form', 'Eleve::edit/$1');
+$routes->get('/form', 'Eleve::edit');
+$routes->post('/form', 'Eleve::storeNote');
 $routes->get('/eleves/(:num)/view', 'Eleve::view/$1');
 $routes->get('/formulaire', 'Formulaire::index');
 

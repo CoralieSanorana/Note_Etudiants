@@ -144,3 +144,91 @@ in APPPATH\Controllers\Eleve.php on line 23.
  5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:38:37 --> ErrorException: Undefined property: App\Controllers\Eleve::$eleveModel
+[Method: GET, Route: eleves/1/form]
+in APPPATH\Controllers\Eleve.php on line 23.
+ 1 APPPATH\Controllers\Eleve.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Eleve::$eleveModel', 'D:\\ITU\\S4\\Systeme d\'information\\Note_Etudiants\\app\\Controllers\\Eleve.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Eleve->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Eleve))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:38:39 --> ErrorException: Undefined property: App\Controllers\Eleve::$eleveModel
+[Method: GET, Route: eleves/1/form]
+in APPPATH\Controllers\Eleve.php on line 23.
+ 1 APPPATH\Controllers\Eleve.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Eleve::$eleveModel', 'D:\\ITU\\S4\\Systeme d\'information\\Note_Etudiants\\app\\Controllers\\Eleve.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Eleve->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Eleve))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:38:39 --> ErrorException: Undefined property: App\Controllers\Eleve::$eleveModel
+[Method: GET, Route: eleves/1/form]
+in APPPATH\Controllers\Eleve.php on line 23.
+ 1 APPPATH\Controllers\Eleve.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Eleve::$eleveModel', 'D:\\ITU\\S4\\Systeme d\'information\\Note_Etudiants\\app\\Controllers\\Eleve.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Eleve->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Eleve))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:38:39 --> ErrorException: Undefined property: App\Controllers\Eleve::$eleveModel
+[Method: GET, Route: eleves/1/form]
+in APPPATH\Controllers\Eleve.php on line 23.
+ 1 APPPATH\Controllers\Eleve.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Eleve::$eleveModel', 'D:\\ITU\\S4\\Systeme d\'information\\Note_Etudiants\\app\\Controllers\\Eleve.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Eleve->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Eleve))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:43:49 --> ErrorException: Undefined property: App\Controllers\Eleve::$eleveModel
+[Method: GET, Route: form]
+in APPPATH\Controllers\Eleve.php on line 23.
+ 1 APPPATH\Controllers\Eleve.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Eleve::$eleveModel', 'D:\\ITU\\S4\\Systeme d\'information\\Note_Etudiants\\app\\Controllers\\Eleve.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Eleve->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Eleve))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:45:50 --> ErrorException: Undefined property: App\Controllers\Eleve::$eleveModel
+[Method: GET, Route: form]
+in APPPATH\Controllers\Eleve.php on line 23.
+ 1 APPPATH\Controllers\Eleve.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Eleve::$eleveModel', 'D:\\ITU\\S4\\Systeme d\'information\\Note_Etudiants\\app\\Controllers\\Eleve.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Eleve->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Eleve))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 09:20:07 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: eleves]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:21:13 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: form]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:21:18 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: form]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:21:20 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: eleves]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:22:08 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: eleves]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:22:50 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: eleves]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:23:02 --> ErrorException: Cannot use App\Models\OptionModel as OptionModel because the name is already in use
+[Method: GET, Route: eleves]
+in APPPATH\Controllers\Eleve.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

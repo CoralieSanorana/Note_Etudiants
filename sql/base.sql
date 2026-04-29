@@ -58,3 +58,18 @@ create table note(
     foreign key (id_eleve) references eleve(id_eleve)
 );
 
+SELECT 
+    e.*, 
+    n.note, 
+    n.resultat,
+    s. 
+    s.semestre, 
+    c.id_option, 
+    c.id_matiere, 
+    m.intitule,
+    c.credit
+FROM eleve e
+LEFT JOIN note n ON n.id_eleve = e.id_eleve
+LEFT JOIN config c ON c.id_semestre = n.id_semestre AND c.id_matiere = n.id_matiere
+LEFT JOIN semestre s ON s.id_semestre = c.id_semestre
+LEFT JOIN matiere m ON m.id_matiere = c.id_matiere;
